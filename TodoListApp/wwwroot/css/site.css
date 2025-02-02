@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-flex-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+}
+
+.auto-resize {
+    resize: none;
+    overflow: hidden;
+    min-height: 38px;
+    max-height: 200px;
+    width: 100%;
+    transition: height 0.2s ease-out;
+}
+
+.btn-fixed-height {
+    height: 74px;
+}
+
+.btn-primary {
+    transition: height 0.2s ease-out;
+}
+
+.alert {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
